@@ -13,3 +13,13 @@
     /* background-color: #4f8cd6; */
     background-color: black;
 }
+
+.lists{
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+
+.pressLogos{
+    width: 85%;
+}
