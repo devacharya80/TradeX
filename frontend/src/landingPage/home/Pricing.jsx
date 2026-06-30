@@ -1,6 +1,6 @@
 function Pricing() {
   return (
-    <div className="container">
+    <div className="container mb-5">
       <div className="row">
         <div className="col-4">
           <h2>Unbeatable pricing</h2>
