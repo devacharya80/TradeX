@@ -1,6 +1,6 @@
 function Pricing() {
   return (
-    <div className="container mb-5">
+    <div className="container mb-5 mt-5 pt-5">
       <div className="row">
         <div className="col-4">
           <h2>Unbeatable pricing</h2>
@@ -17,7 +17,7 @@ function Pricing() {
             <div className="row text-center">
                 <div className="col p-3 border shadow">
                     <h1 className="mb-3">₹0</h1>
-                    <p>Free equity delivery and <br />direct mutual funds</p>
+                    <p >Free equity delivery and <br />direct mutual funds</p>
                 </div>
                 
                 <div className="col p-3 border shadow">
