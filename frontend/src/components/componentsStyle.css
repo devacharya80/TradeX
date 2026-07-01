@@ -16,3 +16,52 @@
 .nav-link:hover {
     color: #387ed1;
 }
+
+.footer {
+    background: #fbfbfb;
+}
+
+.footer-logo {
+    width: 150px;
+}
+
+.footer h5 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #424242;
+}
+
+.footer a {
+    display: block;
+    text-decoration: none;
+    color: #666;
+    margin-bottom: 12px;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+.footer a:hover {
+    color: #387ed1;
+}
+
+.footer-text {
+    color: #777;
+    font-size: 13px;
+    line-height: 1.8;
+}
+
+.social-icons i {
+    font-size: 22px;
+    color: #666;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.social-icons i:hover {
+    color: #387ed1;
+}
+
+.text-center a {
+    display: inline-block;
+    margin: 0 15px;
+}
