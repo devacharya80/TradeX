@@ -8,6 +8,7 @@ function Hero() {
           We pioneered the discount broking model in India<br></br>
           Now, we are breaking ground with our technology.
         </h1>
+        <hr style={{ width: "70%", margin: "auto" }} className="p-5"></hr>
         <div className="row about-hero">
           <div className="col w-5 about-hero-p">
             <p>
@@ -44,7 +45,6 @@ function Hero() {
           </div>
         </div>
       </div>
-      <hr style={{ width: "70%", margin: "auto" }}></hr>
     </>
   );
 }
