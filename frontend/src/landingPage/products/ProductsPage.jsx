@@ -1,6 +1,6 @@
 import Hero from "./Hero"
 import LeftSection from "./LeftSection"
-import rightSection from "./RightSection"
+import RightSection from "./RightSection"
 import Universe from "./Universe"
 
 function ProductsPage() {
