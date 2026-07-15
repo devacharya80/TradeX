@@ -1,5 +1,5 @@
-function Brokarage() {
-    return ( <h1>Brokarage</h1> );
+function Brokerage() {
+    return ( <h1>Brokerage</h1> );
 }
 
-export default Brokarage;
+export default Brokerage;
