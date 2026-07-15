@@ -1,12 +1,12 @@
 import Hero from "./Hero";
 import Brokerage from "./Brokerage";
-import openAccount from "../../components/OpenAccount.jsx";
+// import openAccount from "./OpenAccount";
 
 function PricingPage() {
   return (
     <>
       <Hero />
-      <openAccount />
+      {/* <openAccount /> */}
       <Brokerage />
     </>
   );
