@@ -1,0 +1,48 @@
+.pricing-img {
+  max-width: 260px;
+  width: 100%;
+  height: auto;
+}
+
+.pricing-title {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #424242;
+  min-height: 70px;
+}
+
+.pricing-desc {
+  max-width: 330px;
+  margin: auto;
+  color: #666;
+  line-height: 1.8;
+  font-size: 1.1rem;
+}
+
+/* Tablet */
+@media (max-width: 991px) {
+  .pricing-title {
+    min-height: auto;
+    font-size: 1.8rem;
+  }
+
+  .pricing-img {
+    max-width: 220px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+  .pricing-title {
+    font-size: 1.6rem;
+  }
+
+  .pricing-desc {
+    font-size: 1rem;
+    max-width: 100%;
+  }
+
+  .pricing-img {
+    max-width: 180px;
+  }
+}

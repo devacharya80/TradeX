@@ -1,0 +1,26 @@
+h2 {
+  color: #424242;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+h5 {
+  color: #424242;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+  color: #387ed1;
+  line-height: 2.2;
+  font-size: 16px;
+}
+
+a:hover {
+  color: #000;
+}
+
+.row {
+  margin-top: 20px;
+}
