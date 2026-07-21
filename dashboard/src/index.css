@@ -573,7 +573,7 @@ hr {
   align-items: center;
   box-shadow: 0px 0px 4px 2px rgb(236, 235, 235);
   box-sizing: border-box;
-  z-index:;
+  z-index: 1;
 }
 
 .indices-container {
