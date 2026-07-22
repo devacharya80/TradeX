@@ -1,22 +1,21 @@
 import mongoose, { Schema } from "mongoose";
 
-const watchlistSchema = new Schema(
+const orderSchema = new Schema(
   {
     name: {
       type: String,
       required: true,
     },
-    price: {
+    qty: {
       type: Number,
       required: true,
     },
-    percent: {
+    price: {
       type: String,
       required: true,
     },
-    isDown: {
-      type: Boolean,
-      default: false,
+    mode: {
+      type: String,
     },
   },
   {
@@ -24,4 +23,4 @@ const watchlistSchema = new Schema(
   },
 );
 
-export default mongoose.model("Watchlist", watchlistSchema);
+export default mongoose.model("Order", orderSchema);
